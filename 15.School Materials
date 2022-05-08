@@ -1,0 +1,19 @@
+using System;
+
+namespace BasicsFirstStepsCoding
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            double pencilPackagePrice = double.Parse(Console.ReadLine())*5.8;
+            double markersPackagePrice = double.Parse(Console.ReadLine())*7.2;
+            double detergentLitersPrice = double.Parse(Console.ReadLine())*1.2;
+            double discount = double.Parse(Console.ReadLine())/100;
+            double totalAmount = pencilPackagePrice + markersPackagePrice + detergentLitersPrice;
+            double totalAmountWithDiscount = totalAmount - (totalAmount * discount); 
+                
+                Console.WriteLine(totalAmountWithDiscount);
+        }
+    }
+}
