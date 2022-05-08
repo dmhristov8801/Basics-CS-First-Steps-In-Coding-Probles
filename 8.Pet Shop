@@ -1,0 +1,17 @@
+using System;
+
+namespace Programming.Basics.CS.Problems.Solutions
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            double dogFoodPackagesCount = double.Parse(Console.ReadLine()) * 2.5;
+            double catFoodPackagesCount = double.Parse(Console.ReadLine()) * 4;
+            double result = dogFoodPackagesCount + catFoodPackagesCount;
+
+            Console.WriteLine($"{result} lv.");
+
+        }
+    }
+}
