@@ -1,0 +1,16 @@
+using System;
+
+namespace Programming.Basics.CS.Problems.Solutions
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            double inches= double.Parse(Console.ReadLine())*2.54;
+            
+
+            Console.WriteLine(inches);
+          
+        }
+    }
+}
