@@ -1,0 +1,19 @@
+using System;
+
+namespace BasicsFirstStepsCoding
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int currentBookPages = int.Parse(Console.ReadLine());
+            int pagesPerHour = int.Parse(Console.ReadLine());
+            int daysCountPerBook = int.Parse(Console.ReadLine());
+
+            int hours = currentBookPages / pagesPerHour;
+            int result = hours / daysCountPerBook;
+
+            Console.WriteLine(result);
+        }
+    }
+}
