@@ -1,0 +1,16 @@
+using System;
+
+namespace BasicsFirstStepsCoding
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            double usdToBgn = double.Parse(Console.ReadLine())*1.79549;
+
+            
+            
+            Console.WriteLine(usdToBgn);
+        }
+    }
+}
