@@ -1,0 +1,20 @@
+using System;
+
+namespace Programming.Basics.CS.Problems.Solutions
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            double depositSum = double.Parse(Console.ReadLine());
+            int depositTerm = int.Parse(Console.ReadLine());
+            double oneYearIntrest = double.Parse(Console.ReadLine());
+
+            double totalInterest = depositSum * (oneYearIntrest/100);
+            double oneMonthInterest = totalInterest / 12;
+            double result = depositSum + (depositTerm * oneMonthInterest);
+           
+                Console.WriteLine(result);
+        }
+    }
+}
