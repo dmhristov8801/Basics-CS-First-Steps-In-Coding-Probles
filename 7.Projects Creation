@@ -1,0 +1,16 @@
+using System;
+
+namespace Programming.Basics.CS.Problems.Solutions
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string architectName = Console.ReadLine();
+            int projectCount =int.Parse(Console.ReadLine());
+            int hoursToCompleteProjects = projectCount*3;
+
+            Console.WriteLine($"The architect {architectName} will need {hoursToCompleteProjects} hours to complete {projectCount} project/s.");
+        }
+    }
+}
