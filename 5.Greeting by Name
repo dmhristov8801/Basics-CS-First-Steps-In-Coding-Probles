@@ -1,0 +1,16 @@
+using System;
+
+namespace Programming.Basics.CS.Problems.Solutions
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string name = Console.ReadLine();
+
+
+            Console.WriteLine("Hello, "+name+"!");
+          
+        }
+    }
+}
