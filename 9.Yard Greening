@@ -1,0 +1,20 @@
+using System;
+
+namespace Programming.Basics.CS.Problems.Solutions
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+            double yardAreaPrice = double.Parse(Console.ReadLine()) * 7.61;
+            double discount = (yardAreaPrice * 0.18);
+            double totalPriceAmount = yardAreaPrice - discount;
+            
+            
+            Console.WriteLine($"The final price is: {totalPriceAmount} lv.");
+            Console.WriteLine($"The discount is: {discount} lv.");
+
+        }
+    }
+}
