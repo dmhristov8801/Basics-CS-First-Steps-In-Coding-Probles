@@ -1,0 +1,19 @@
+using System;
+
+namespace BasicsFirstStepsCoding
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            double yearTax = double.Parse(Console.ReadLine());
+            double basketballShoesPrice= yearTax * 0.60;
+            double basketballTracksuitPrice = basketballShoesPrice * 0.80;
+            double basketBallBallPrice = basketballTracksuitPrice / 4;
+            double basketBallAccessories = basketBallBallPrice / 5;
+            double totalPriceAmount = yearTax+basketballShoesPrice + basketballTracksuitPrice + basketBallBallPrice + basketBallAccessories;
+
+                Console.WriteLine(totalPriceAmount);
+        }
+    }
+}
