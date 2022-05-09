@@ -1,0 +1,21 @@
+using System;
+
+namespace BasicsFirstStepsCoding
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            double chickenMenusPrice= double.Parse(Console.ReadLine())*10.35;
+            double fishMenusPrice= double.Parse(Console.ReadLine())*12.4;
+            double vegetarianMenusPrice = (double.Parse(Console.ReadLine()))*8.15;
+            double dessertPrice = (chickenMenusPrice + fishMenusPrice + vegetarianMenusPrice) * 0.20;
+            double result = chickenMenusPrice + fishMenusPrice + vegetarianMenusPrice + dessertPrice + 2.50;
+
+            
+           
+                
+                Console.WriteLine(result);
+        }
+    }
+}
