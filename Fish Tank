@@ -1,0 +1,20 @@
+using System;
+
+namespace BasicsFirstStepsCoding
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            double aquariumLenght = double.Parse(Console.ReadLine());
+            double aquariumWidth= double.Parse(Console.ReadLine());
+            double aquariumHeight = double.Parse(Console.ReadLine());
+            double percents = double.Parse(Console.ReadLine())/100;
+
+            double litresAmount = ((aquariumLenght * aquariumWidth * aquariumHeight) *0.001)*(1-percents);
+            
+
+            Console.WriteLine(litresAmount);
+        }
+    }
+}
