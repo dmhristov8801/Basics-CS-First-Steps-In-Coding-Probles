@@ -1,0 +1,22 @@
+using System;
+
+namespace BasicsFirstStepsCoding
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            double nylonNeeded = (double.Parse(Console.ReadLine())+2)*1.5;
+            double paintNeeded = double.Parse(Console.ReadLine())*14.5;
+            double paintThinnerNeeded = (double.Parse(Console.ReadLine()))*5;
+            double workersHoursNeeded = double.Parse(Console.ReadLine());
+            double totalAmountNeeded = nylonNeeded + paintNeeded + paintThinnerNeeded + 0.40 + (paintNeeded * 0.10);
+            double workingHoursCost = workersHoursNeeded*(totalAmountNeeded * 0.30);
+            double result = totalAmountNeeded + workingHoursCost;
+            
+           
+                
+                Console.WriteLine(result);
+        }
+    }
+}
